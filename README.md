@@ -96,7 +96,7 @@ Flag	Description
 --check-missing	Check for missing config files
 --simulate-day1	Run Day-1 simulation
 --simulate-day2	Run Day-2 simulation with faults
-![Options](Project/screenshots/options.png) 
+![Options](screenshots/options.png) 
 
 # 📌 Example Usage
 Generate topology, analyze configs, run simulation, and export:
@@ -129,18 +129,18 @@ src_subnet,dst_subnet,mbps
 192.168.10.0/24,192.168.20.0/24,50
 ```
 # 📂 Output Files
-**Topology image:** `output/network_topology.png` ![Network Topology](Project/output/topology.png)  
+**Topology image:** `output/network_topology.png` ![Network Topology](output/topology.png)  
 
-- **Validation report:** [validation_report.txt](Project/output/validation_report.txt)  
-- **Load analysis:** [load_analysis.txt](Project/output/load_analysis.txt)
+- **Validation report:** [validation_report.txt](output/validation_report.txt)  
+- **Load analysis:** [load_analysis.txt](output/load_analysis.txt)
 
 - **Simulation logs:**
-  - [R1 Day-1 Log](Project/output/R1_day1_log.txt)
-  - [R2 Day-1 Log](Project/output/R2_day1_log.txt)
-  - [R1 Day-2 Log](Project/output/R1_day2_log.txt)
-  - [R2 Day-2 Log](Project/output/R2_day2_log.txt)
+  - [R1 Day-1 Log](output/R1_day1_log.txt)
+  - [R2 Day-1 Log](output/R2_day1_log.txt)
+  - [R1 Day-2 Log](output/R1_day2_log.txt)
+  - [R2 Day-2 Log](output/R2_day2_log.txt)
 
-- **Packet Tracer archive:** [network_project.pkt](Project/output/network_project.pkt)
+- **Packet Tracer archive:** [network_project.pkt](output/network_project.pkt)
 
 # 🖱 How to Import into Cisco Packet Tracer
 Extract network_project.pkt ZIP archive
@@ -161,10 +161,10 @@ Automatic topology reconstruction from raw Cisco configs
 Comprehensive validation: IP conflicts, VLANs, routing anomalies
 
 Traffic-based load analysis with actionable recommendations
-![Load Balancing](Project/screenshots/Load_Balancing.png) 
+![Load Balancing](screenshots/Load_Balancing.png) 
 Day-1/Day-2 scenario emulation with fault injection
-![Simulations](Project/screenshots/Simulation.png)
-![Generated Log Files](Project/screenshots/Log_files.png) 
+![Simulations](screenshots/Simulation.png)
+![Generated Log Files](screenshots/Log_files.png) 
 Bridges automation with manual import for Packet Tracer
 # 🤝 Contributing
 Contributions are welcome! Submit issues or pull requests via the repository.
